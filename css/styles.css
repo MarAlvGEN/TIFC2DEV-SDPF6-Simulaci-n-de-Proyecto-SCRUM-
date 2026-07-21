@@ -232,6 +232,8 @@ header {
     }
 }
 
+/* ESTILOS DEL CONTACTO.HTML */
+
 .navegation {
     display: flex;
     flex-direction: row;
@@ -257,3 +259,117 @@ header {
     left: 0;
     width: 100%;
 }
+.body-site {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.nav-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.contact-header {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.contact-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    display: flex;
+    gap: 30px;
+}
+
+.contac-info {
+    flex: 1;
+    background: white;
+    padding: 30px;
+    border-left: 8px solid #ffd600;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.info-title {
+    color: #c62828;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.info-list {
+    padding: 0;
+    margin: 0;
+}
+
+.info-item {
+    margin-bottom: 18px;
+    list-style: none;
+}
+
+.contact-formulario {
+    flex: 1;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.form-title {
+    color: #c62828;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-input {
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+.form-button {
+    background: #c62828;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+    width: 100%;
+}
+
+.form-button:hover {
+    background: #ffd600;
+    color: #c62828;
+}
+
+/* FIN - ESTILOS DEL CONTACTO.HTML */
