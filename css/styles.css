@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:  "Trebuchet MS", "Segoe UI", Arial, sans-serif;
+    font-family: "Trebuchet MS", "Segoe UI", Arial, sans-serif;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
     background: #f8f8f8;
     color: #333;
 }
-#tituloPag{
+#tituloPag {
     text-align: center;
     margin: 10px;
 }
@@ -247,40 +247,41 @@ header {
 
 /* ESTILOS INDEX */
 
-main{
+main {
     width: 90%;
     margin: 30px auto;
 }
 
-main section{
+main section {
     background: white;
     margin-bottom: 30px;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-main section h3{
-    color:#c62828;
-    margin-bottom:15px;
+main section h3 {
+    color: #c62828;
+    margin-bottom: 15px;
 }
 
-main section p{
-    line-height:1.6;
-    margin-top:15px;
+main section p {
+    line-height: 1.6;
+    margin-top: 15px;
 }
 
-main section img{
-    width:100%;
-    max-width:500px;
-    display:block;
-    margin:20px auto;
-    border-radius:10px;
+main section img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
 }
 /* Estilos Pagina Quienes Somos */
 .sectionEmpresa {
-    background: linear-gradient(rgba(198, 40, 40, 0.85), rgba(198, 40, 40, 0.85)),
-                url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80');
+    background:
+        linear-gradient(rgba(198, 40, 40, 0.85), rgba(198, 40, 40, 0.85)),
+        url("https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80");
     background-size: cover;
     background-position: center;
     color: white;
@@ -300,7 +301,7 @@ main section img{
     margin: 40px 0 20px 0;
     font-family: "Trebuchet MS", "Segoe UI", Arial, sans-serif;
 }
-.contenedor{
+.contenedor {
     width: 90%;
     max-width: 1100px;
     margin: 0 auto 50px auto;
@@ -324,12 +325,12 @@ main section img{
     transform: translateY(-5px);
 }
 
-.tarjeta2{
+.tarjeta2 {
     border-left: none;
     border-right: 8px solid #ffd600;
 }
 
-.imagen-tarjeta{
+.imagen-tarjeta {
     width: 35%;
     object-fit: cover;
 }
@@ -353,7 +354,7 @@ main section img{
     line-height: 1.6;
     font-size: 16px;
 }
-.piePagina{
+.piePagina {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -480,4 +481,18 @@ main section img{
     color: #c62828;
 }
 
+.piePagina {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 5%;
+    /*text-align: center;*/
+    color: #000000;
+    background-color: #ffd166;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
 /* FIN - ESTILOS DEL CONTACTO.HTML */
