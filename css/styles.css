@@ -237,3 +237,37 @@ header {
 .img-nave {
     max-width: 10%;
 }
+
+/* ESTILOS INDEX */
+/* ========================= */
+
+main{
+    width: 90%;
+    margin: 30px auto;
+}
+
+main section{
+    background: white;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+}
+
+main section h3{
+    color:#c62828;
+    margin-bottom:15px;
+}
+
+main section p{
+    line-height:1.6;
+    margin-top:15px;
+}
+
+main section img{
+    width:100%;
+    max-width:500px;
+    display:block;
+    margin:20px auto;
+    border-radius:10px;
+}
