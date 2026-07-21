@@ -237,3 +237,80 @@ header {
 .img-nave {
     max-width: 10%;
 }
+
+/* Estilos Pagina Quienes Somos */
+.sectionEmpresa {
+    background: linear-gradient(rgba(198, 40, 40, 0.85), rgba(198, 40, 40, 0.85)),
+                url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+.sectionEmpresa h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Trebuchet MS", "Segoe UI", Arial, sans-serif;
+}
+
+.tituloQuienes {
+    text-align: center;
+    color: #c62828;
+    font-size: 60px;
+    margin: 40px 0 20px 0;
+    font-family: "Trebuchet MS", "Segoe UI", Arial, sans-serif;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: "Trebuchet MS", "Segoe UI", Arial, sans-serif;
+}
+
+.tarjeta {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    overflow: hidden;
+    border-left: 8px solid #c62828;
+    transition: transform 0.3s ease;
+}
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+}
+
+.tarjeta2{
+    border-left: none;
+    border-right: 8px solid #ffd600;
+}
+
+.imagen-tarjeta{
+    width: 35%;
+    object-fit: cover;
+}
+.contenido {
+    width: 65%;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.contenido h2 {
+    color: black;
+    margin-bottom: 15px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.contenido p {
+    color: #444;
+    line-height: 1.6;
+    font-size: 16px;
+}
