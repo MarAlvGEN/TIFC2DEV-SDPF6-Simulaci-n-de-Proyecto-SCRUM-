@@ -194,22 +194,6 @@ header {
     transform: scale(1.05);
 }
 
-.footer {
-    margin-top: 20px;
-
-    background: #212121;
-
-    color: white;
-
-    text-align: center;
-
-    padding: 30px;
-}
-
-.footer p {
-    margin: 8px;
-}
-
 @media (max-width: 768px) {
     .contact-container {
         flex-direction: column;
@@ -494,5 +478,24 @@ main section img {
     bottom: 0;
     left: 0;
     width: 100%;
+}
+
+footer,
+.footer,
+.piePagina {
+    background: #212121;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 50px;
+
+    position: relative;
+    width: 100%;
+}
+
+footer p,
+.footer p,
+.piePagina p {
+    margin: 8px 0;
 }
 /* FIN - ESTILOS DEL CONTACTO.HTML */
