@@ -7,27 +7,26 @@
         <title>Contacto - Blog</title>
     </head>
 
-    <body>
-        <header>
-            <nav>
-                <a>
-                    <img src="logo.png" alt="imgLogo" />
+    <body class="body-site">
+        <header class="navegation">
+            <nav class="nav-container">
+                <a class="nav-logo-link">
+                    <img class="img-nave" src="logo.png" alt="imgLogo" />
                 </a>
                 <section class="menu" aria-label="Enlaces del sitio">
-                    <a href="index.html">Inicio</a>
-                    <a href="quienes_somos.html">¿Quienes somos?</a>
-                    <a href="contacto.html">Contacto</a>
+                    <a class="menu-link" href="index.html">Inicio</a>
+                    <a class="menu-link" href="quienes_somos.html"
+                        >¿Quienes somos?</a
+                    >
+                    <a class="menu-link" href="contacto.html">Contacto</a>
                 </section>
             </nav>
-            <section>
-                <h1>Inmobiliaria<br />Guerrero</h1>
-            </section>
         </header>
 
-        <main>
+        <main class="main-content">
             <section class="contact-header">
-                <h1>Contáctanos</h1>
-                <p>
+                <h1 class="contact-main-title">Contáctanos</h1>
+                <p class="contact-description">
                     ¿Tienes dudas o comentarios? Ponte en contacto con nuestro
                     equipo.
                 </p>
@@ -35,30 +34,38 @@
 
             <div class="contact-container">
                 <section class="contac-info">
-                    <h2>Información de Atención</h2>
-                    <ul>
-                        <li>
-                            <strong>Dirección:</strong> Cl. Principal #123,
-                            Ciudad Ficticia
+                    <h2 class="info-title">Información de Atención</h2>
+                    <ul class="info-list">
+                        <li class="info-item">
+                            <strong class="info-strong">Dirección:</strong> Cl.
+                            Principal #123, Ciudad Ficticia
                         </li>
-                        <li><strong>Teléfono:</strong> +56 9 1234 5678</li>
-                        <li>
-                            <strong>Correo electrónico:</strong>
+                        <li class="info-item">
+                            <strong class="info-strong">Teléfono:</strong> +57
+                            123 1235678
+                        </li>
+                        <li class="info-item">
+                            <strong class="info-strong"
+                                >Correo electrónico:</strong
+                            >
                             contacto@ejemplo-ficticio.com
                         </li>
-                        <li>
-                            <strong>Horario:</strong> Lunes a Viernes de 9:00 a
-                            18:00 hrs.
+                        <li class="info-item">
+                            <strong class="info-strong">Horario:</strong> Lunes
+                            a Viernes de 9:00 a 18:00 hrs.
                         </li>
                     </ul>
                 </section>
 
                 <section class="contact-formulario">
-                    <h2>Envíanos un mensaje</h2>
-                    <form action="#">
-                        <div>
-                            <label for="nombre">Nombre completo:</label>
+                    <h2 class="form-title">Envíanos un mensaje</h2>
+                    <form class="form-element" action="#">
+                        <div class="form-group">
+                            <label class="form-label" for="nombre"
+                                >Nombre completo:</label
+                            >
                             <input
+                                class="form-input"
                                 type="text"
                                 id="nombre"
                                 name="nombre"
@@ -67,9 +74,12 @@
                             />
                         </div>
 
-                        <div>
-                            <label for="email">Correo electrónico:</label>
+                        <div class="form-group">
+                            <label class="form-label" for="email"
+                                >Correo electrónico:</label
+                            >
                             <input
+                                class="form-input"
                                 type="email"
                                 id="email"
                                 name="email"
@@ -78,9 +88,12 @@
                             />
                         </div>
 
-                        <div>
-                            <label for="asunto">Asunto:</label>
+                        <div class="form-group">
+                            <label class="form-label" for="asunto"
+                                >Asunto:</label
+                            >
                             <input
+                                class="form-input"
                                 type="text"
                                 id="asunto"
                                 name="asunto"
@@ -89,9 +102,12 @@
                             />
                         </div>
 
-                        <div>
-                            <label for="mensaje">Mensaje:</label>
+                        <div class="form-group">
+                            <label class="form-label" for="mensaje"
+                                >Mensaje:</label
+                            >
                             <textarea
+                                class="form-input"
                                 id="mensaje"
                                 name="mensaje"
                                 rows="5"
@@ -100,7 +116,9 @@
                             ></textarea>
                         </div>
 
-                        <button type="submit">Enviar Mensaje</button>
+                        <button class="form-button" type="submit">
+                            Enviar Mensaje
+                        </button>
                     </form>
                 </section>
             </div>
